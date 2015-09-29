@@ -14,6 +14,7 @@ int main(){
   double* b=new double[N];
   double* c=new double[N];
   double* A=new double[3*N];
+  double* B=new double[6*N];
   
   T.start();
   
