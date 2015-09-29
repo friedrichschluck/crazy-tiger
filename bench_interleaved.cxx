@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-  cout << "Booooyaaahh" << endl;  
+  cout << "ooyaaahh" << endl;  
   Timer T;
   
   const int N=16384*512;
