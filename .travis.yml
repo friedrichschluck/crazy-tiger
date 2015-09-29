@@ -13,4 +13,4 @@ script:
   - make
 
 after_success:
-  - bench
+  - ./bench
