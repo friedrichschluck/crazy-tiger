@@ -1,9 +1,13 @@
 language: cpp
 
-before_install:
-  - sudo apt-get update -qq
-  - sudo apt-get install -y gnuplot
-  - sudo apt-get install -y valgrid
+sudo: false
+
+addons:
+  apt:
+    packages:
+    - cmake
+    - valgrind
+    - gnuplot
 
 script:
   - make
