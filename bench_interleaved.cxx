@@ -30,9 +30,9 @@ int main(){
   T.reset();
   T.start();
   
-  for(int i=0; i<5*N; i+=3)(
+  for(int i=0; i<3*N; i+=3){               // fixed array length, FS 30th Sep 15
     A[i+2] = A[i+1]*A[i];
-  )
+  }                                        // fixed brackets, FS 30th Sep 15
   T.stop();
   cout << "T2 = " << T.getTime() << endl;
 
