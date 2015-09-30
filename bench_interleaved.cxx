@@ -7,7 +7,7 @@ int main(){
 
   cout << "boom2222" << endl;  
   Timer T;
-  
+  cout << "ich will auch mitarbeiten!!" << endl;
   const int N=16384*512;
   
   double* a=new double[N];
